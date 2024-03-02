@@ -36,24 +36,59 @@ The dataset, taken from Kaggle, contains 10,000 sample points with 14 distinct f
 
 #### Overall Churn Rate
 - **Bank Churn Rate:** 20.4% of customers have exited the bank, while 79.6% remain.
+ <center>
+
+![exited_not](https://github.com/Shreya971309/-Banks-Churn-Prediction-Neural-Network-Modelling/assets/156785157/ecac545c-42b5-470f-b59f-1d5eb14954ca)
+</center>
 
 #### Gender Disparity
 - **Gender Churn Analysis:** Women exhibit a higher churn rate (25%) compared to men (16.4%).
+<center>
+  
+  ![gender](https://github.com/Shreya971309/-Banks-Churn-Prediction-Neural-Network-Modelling/assets/156785157/040ec1db-ee94-4a19-933d-b9b0f3b6af57)
+
+</center>
 
 #### Geographic Influence
 - **Regional Churn Patterns:** Germany experiences the highest churn rate (32%) among all countries, followed by France (16.1%) and Spain (16.6%).
+<center>
+  
+  ![geography](https://github.com/Shreya971309/-Banks-Churn-Prediction-Neural-Network-Modelling/assets/156785157/22cd4de6-e40b-4f6e-8d83-2d17e099f313)
+
+  
+</center>
 
 #### Tenure Impact
 - **Tenure and Churn Relationship:** Customers with shorter tenure, particularly 0 and 1 year, show elevated churn rates.
+  <center>
+![tenure](https://github.com/Shreya971309/-Banks-Churn-Prediction-Neural-Network-Modelling/assets/156785157/4fb17255-b9c1-4276-bbac-7f5f20d3da08)
+
+  </center>
+
 
 #### Product Purchases
 - **Product Impact on Churn:** All customers with 4 product purchases have churned, whereas those with 2 products exhibit the lowest churn rate.
+<center>
+  
+  ![no_of_prods](https://github.com/Shreya971309/-Banks-Churn-Prediction-Neural-Network-Modelling/assets/156785157/93fd5c04-5767-463a-a6ef-51d3bd64c5c9)
+
+</center>
 
 #### Membership Activity
 - **Active Membership vs. Churn:** Non-active members demonstrate a higher propensity to churn.
+<center>
+  
+  ![active_non_active](https://github.com/Shreya971309/-Banks-Churn-Prediction-Neural-Network-Modelling/assets/156785157/528e42f5-dcf9-4a06-8e52-5ea03897afb3)
+
+</center>
 
 #### Credit Card Ownership
 - **Credit Card Influence on Churn:** Churn rates are comparable between customers with and without credit cards.
+<center>
+  
+  ![credit_card](https://github.com/Shreya971309/-Banks-Churn-Prediction-Neural-Network-Modelling/assets/156785157/39b00797-7af8-4b06-98fd-6dd8663e8574)
+
+</center>
 
 
 </details>
@@ -175,6 +210,18 @@ After evaluating all considered models, we determined that the model incorporati
 - **Recall (0.708589)**: The model correctly identified 70.8589% of the customers who actually churned. This is crucial to identify as many churning customers as possible.
 - **F1 Score (0.522624)**: An F1 score of 52.2624% indicates that there is room for improvement in achieving a better balance.
 - **AUC (0.83)**: An AUC score of 0.83 on the test set indicates relatively good performance of the model in distinguishing between positive and negative instances. Therefore, the model has a high probability of ranking a randomly chosen positive instance higher than a randomly chosen negative instance.
+<center>
+  
+![AUC_ROC](https://github.com/Shreya971309/-Banks-Churn-Prediction-Neural-Network-Modelling/assets/156785157/ce78e0bf-b3dd-4f3d-8d56-4648de72a3a5)
+
+  
+</center>
+
+<center>
+  
+  ![confusion_matrix](https://github.com/Shreya971309/-Banks-Churn-Prediction-Neural-Network-Modelling/assets/156785157/96c7c569-7838-4857-a73e-7fb90693e91b)
+
+</center>
 
 
 </details>
