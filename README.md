@@ -116,15 +116,7 @@ Recall is prioritized, especially when the cost of false negatives is high. In c
 
 </details>
 
-<details>
-<summary>Model Performance Improvement</summary>
 
-- Experiment with different optimization algorithms to enhance model performance.
-- Tune hyperparameters such as learning rates and regularization strengths.
-- Incorporate dropout layers to prevent overfitting.
-- Address class imbalance using techniques like synthetic minority oversampling technique (SMOTE) or class weighting.
-
-</details>
 
 <details>
 <summary>Final Model Selection</summary>
